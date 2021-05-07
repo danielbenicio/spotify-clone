@@ -1,0 +1,474 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Circular Spotify Tx T Black', sans-serif;
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2BC59;
+    overflow-x: hidden;
+}
+
+
+/* HEADER */
+
+.header {
+    background-color:rgba(0,0,0,0.6);
+    height: 12.8vh;
+    width: 100vw;
+    
+    position: fixed;
+}
+
+.header .nav-bar {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .nav-bar .logo {
+    margin-left: -11.6vw;
+
+    height:7vh;
+}
+
+.header .nav-bar .nav-menus{
+    margin-right: -12vw;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-bar .nav-menus li{  
+    margin: 0 1.2vw;
+
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-size:2.5rem;
+}
+
+.header .nav-bar .nav-menus a{  
+    color:#fff;
+    text-decoration: none;
+
+}
+
+.header .nav-bar .nav-menus li a:hover:after{
+    width: 100%;
+}
+
+.header .nav-bar .nav-menus li a:hover{
+    text-decoration: none;
+
+    color:#FCA26E;
+}
+
+.header .nav-bar .nav-menus li span{
+    color:#fff;
+
+    font-size: 2.0rem;
+    font-family: 'Poppins';
+    font-weight: 100;
+
+    cursor:default;
+}
+
+.header .nav-bar .nav-menus .perfil{
+    margin-left: 1vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-bar .nav-menus .perfil .photo{
+    height: 7.4vh;
+
+    cursor: pointer;
+}
+
+.header .nav-bar .nav-menus .perfil a {
+    margin-left: 1vw;
+
+    font-weight: 700;
+    font-size:1.5rem;
+}
+
+.header .nav-bar .nav-menus .perfil:hover a{
+    color:#FCA26E;  
+}
+
+.header .nav-bar .nav-menus .perfil svg {
+    margin-left: 0.5vw;
+
+    height:3vh;
+    width:1.4vw;
+
+    cursor: pointer;
+}
+.header .nav-bar .nav-menus .perfil:hover svg path{
+    stroke:#FCA26E;
+}
+
+
+
+/* HOME AREA */
+
+.home-area {
+    height:100vh;
+    width: 100vw;
+
+    padding-top: 25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-area .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-area .front .phrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-area .front .phrase h1 {
+    font-size: 7.9rem;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.home-area .front .phrase button {
+    margin-top: 5vh;
+
+    height:9vh;
+    width:27vw;
+
+    background-color: #1DB954;
+
+    border: none;
+    border-radius: 30px;
+
+    color: #fff;
+
+    font-family: 'Poppins';
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.home-area .front .phrase button:hover{
+    background-color: #46DC7B;
+}
+
+.home-area .front .phrase span {
+    margin-top: 26vh;
+
+    color: #fff;
+
+    font-size: 1.1rem;
+
+    font-family: 'Poppins';
+}
+
+.home-area .front .phrase .terms {
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.phase {
+    width: 100vw;
+}
+
+.phrase .slogans {
+    background-color:white;
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.phrase .slogans h1 {
+    letter-spacing: -1px;
+    margin-top: 15vh;
+    
+
+    font-size: 4.8rem;
+}
+
+.phrase .slogans span {
+    margin-top: 1vh;
+
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.phrase .slogans button {
+    margin-top: 4vh;
+
+    height:7.6vh;
+    width:21vw;
+
+    background-color: #fff;
+
+    border-color: rgba(0,0,0,0.6);
+    border-radius: 30px;
+
+    color: rgba(0,0,0,0.6);
+
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.phrase .slogans button:hover{
+    background-color:rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+}
+
+.images {
+    width: 100vw;
+}
+
+.images .musics {
+    background-color:white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images .musics img {
+    box-shadow: 1px 15px 15px 1px #00000040;
+
+    margin: 12vh 0 0 1vw;
+    width:29vw;
+}
+
+
+.images .musics .Ryan img {
+    width:100%;
+}
+
+.images2 {
+    width: 100vw;
+}
+
+.images2 .musics2 {
+    background-color:white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images2 .musics2 img {
+    box-shadow: 1px 15px 15px 1px #00000040;
+
+    margin: 2.5vh 0 12vh 1vw;
+    width:29vw;
+}
+
+footer {
+    height:535px;
+    width: 100vw;
+    background-color:#000;
+}
+
+footer .first {
+    height:80%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+    margin-left: -35vw;
+}
+
+footer .first .second {
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15vh;
+    margin-left: 15vw;
+}
+
+footer .first .second .logo {
+    margin-top: -2vh;
+    height:7vh;
+}
+
+footer .first .second .footer-empresa {
+    list-style: none;
+    align-items: center;
+
+    margin-left: 5vw;
+}
+
+footer .first .second .footer-empresa a {
+    line-height: 7vh;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    font-size:1.5rem;
+    font-family: 'Poppins';
+    color:#fff;
+    text-decoration: none;
+}
+
+footer .first .second .footer-empresa a:hover{
+    color:#1DB954;
+}
+
+footer .first .second .footer-empresa span {
+    font-size:1.2rem;
+    color:#919496;
+    line-height: 5vh;
+}
+
+.logos {
+    height:5vh;
+    width:5vw;
+    display: flex;
+    margin-right: -30vw;
+}
+
+
+.logos .instagram {
+    background-color:#222326;
+    height:55px;
+    width:55px;
+    border-radius: 50%;
+    margin-right: 1vw;
+    margin-left: 15vw;
+    cursor: pointer;
+}
+.logos .instagram svg{
+    height:4vh;
+    width:4vw;
+    margin-top: 14px;
+    margin-left: 0.7px;
+}
+
+.logos .instagram:hover svg path{
+    fill: #1DB954;
+}
+
+.logos .twitter {
+    background-color:#222326;
+    height:55px;
+    width:55px;
+    border-radius: 50%;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.logos .twitter svg{
+    height:4vh;
+    width:4vw;
+    margin-top: 14px;
+    margin-left: 0.7px;
+}
+
+.logos .twitter:hover svg path{
+    fill: #1DB954;
+}
+
+.logos .facebook {
+    background-color:#222326;
+    height:55px;
+    width:55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logos .facebook svg{
+    height:4vh;
+    width:4vw;
+    margin-top: 14px;
+    margin-left: 0.7px;
+}
+
+.logos .facebook:hover svg path{
+    fill: #1DB954;
+}
+
+.final .footer-menus {
+    margin-left: 5vw;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.final .footer-menus a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color:#919496;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.final .footer-menus a:hover {
+    color:#1DB954;
+}
+
+.final .footer-menus .right {
+    flex-direction: column;
+    /* margin: 80px; */
+    display: flex;
+    margin-left: 40vw;
+    text-align: right;
+    line-height: 2vw;
+}
+
+.final .footer-menus span {
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color:#919496;
+    font-weight: 400;
+}
+
+.final .footer-menus .brasil {
+    cursor: pointer;
+}
+
+.final .footer-menus .brasil:hover{
+    color: #FCA26E;
+}
+
+
+
+
