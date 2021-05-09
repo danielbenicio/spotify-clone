@@ -29,6 +29,7 @@ body {
     width: 100vw;
     
     position: fixed;
+    z-index:999;
 }
 
 .header .nav-bar {
@@ -206,9 +207,23 @@ body {
     width: 100vw;
 }
 
-.phrase .slogans {
+
+
+.music-area{
+    height:180vh;
     background-color:white;
-    
+    width:100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.music-area .slogans {
+    margin-top: -150px;
+
     display: flex;
     align-items: center;
     justify-content:center;
@@ -216,7 +231,7 @@ body {
     flex-direction: column;
 }
 
-.phrase .slogans h1 {
+.music-area .slogans h1 {
     letter-spacing: -1px;
     margin-top: 15vh;
     
@@ -224,7 +239,7 @@ body {
     font-size: 4.8rem;
 }
 
-.phrase .slogans span {
+.music-area .slogans span {
     margin-top: 1vh;
 
     font-size: 1.6rem;
@@ -232,7 +247,7 @@ body {
     font-weight: 500;
 }
 
-.phrase .slogans button {
+.music-area .slogans button {
     margin-top: 4vh;
 
     height:7.6vh;
@@ -255,53 +270,97 @@ body {
     transition: 0.5s;
 }
 
-.phrase .slogans button:hover{
+.music-area .slogans button:hover{
     background-color:rgba(0,0,0,0.6);
     color: #fff;
     border: none;
 }
 
-.images {
-    width: 100vw;
+.music-area .musics {
+    width:90%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 68px;
 }
 
-.images .musics {
-    background-color:white;
+.music-area .musics .music {
+    height: calc(100%/2);
+    width:calc(100%/3.1);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:relative;
+
+    margin: 5px;
+}
+
+.music-area .musics .music{
+    background-size:cover;
+    background-position:center;
+}
+
+.music-area .musics .music.tubarao{
+    background-image:url("./images/tubarao.png");
+}
+
+.music-area .musics .music.queen{
+    background-image:url("./images/queen.png");
+}
+
+.music-area .musics .music.fenix{
+    background-image:url("./images/fenix.png");
+}
+.music-area .musics .music.pablo{
+    background-image:url("./images/pablo.jpg");
+}
+.music-area .musics .music.aleatoria{
+    background-image:url("./images/aleatoria.jpg");
+}
+.music-area .musics .music.tentacion{
+    background-image:url("./images/tentacion.jpg");
+}
+
+.music-area .musics .music .overlay{
+    opacity:0;
+
+    cursor:pointer;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    transition:0.3s;
+    width: 100%;
+    height: 100%;
     
+    position: absolute;
+
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.images .musics img {
-    box-shadow: 1px 15px 15px 1px #00000040;
-
-    margin: 12vh 0 0 1vw;
-    width:29vw;
-}
-
-
-.images .musics .Ryan img {
-    width:100%;
-}
-
-.images2 {
-    width: 100vw;
-}
-
-.images2 .musics2 {
-    background-color:white;
+    flex-direction: column;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size:24px;
 }
 
-.images2 .musics2 img {
-    box-shadow: 1px 15px 15px 1px #00000040;
+.music-area .musics .music .overlay h1 {
+    font-size:2.5rem;
+    color:#fff;
+}
 
-    margin: 2.5vh 0 12vh 1vw;
-    width:29vw;
+.music-area .musics .music .overlay span:nth-child(2) {
+    margin-top:8px;
+    color:#919496;
+}
+
+.music-area .musics .music .overlay span:last-child{
+    font-size:1.2rem;
+    color:#1DB954;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    
+    margin-top:18px ;
+}
+
+.music-area .musics .music:hover .overlay{
+    opacity:1;
 }
 
 footer {
