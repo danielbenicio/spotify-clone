@@ -1,0 +1,19 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "Este repositório é um clone do website Spotify, feito com HTML e CSS.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Daniel Benício",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
