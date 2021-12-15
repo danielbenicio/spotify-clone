@@ -22,3 +22,9 @@
 + Foi possível aprender sobre padrões front-end, integração do backend com o front-end.
 
 + Também foi de grande valia o aprendizado acerca do dinamismo na geração de interfaces com o EJS, que, por aceitar dentro de sua estrutura códigos Javascript, também é capaz de alterar o seu conteúdo de acordo com diferentes condições.
+
+## Contato 
+
+[![https://www.linkedin.com/in/danielbenicio/](https://img.shields.io/badge/-Daniel%20Benicio-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/danielbenicio/)
+
+[![mailto:danielbenicio123@gmail.com](https://img.shields.io/badge/danielbenicio123@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:danielbenicio123@gmail.com)
