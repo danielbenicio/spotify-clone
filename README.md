@@ -1,8 +1,24 @@
-# Spotify-clone
+<h1 align="center">Spotify Clone UI</h1>
 
-Este repositório é um clone do website Spotify, feito com HTML e CSS.
+<div align="center">
+  <img src="https://github.com/danielusi/spotify-clone/blob/master/public/images/2021-12-14%2021-23-29.gif" >
+</div>
 
-## Instalação
-Este projeto não precisa de nenhuma depedência para funcionar.
+<h2>Do que se trata a aplicação?</h2>
+<p>Spotify Clone UI foi um site desenvolvido com o intuito de aperfeiçoar minhas capacidades em HTML, CSS e Node.</p>
 
-Sinta-se a vontade caso queira rodar este projeto direto no seu browser clicando com o botão direito no arquivo `index.html` e, em seguida, selecionando a opção `Abrir Com` e selecionando o navegador de sua preferência.
+<hr>
+
+<h3>Como a aplicação foi desenvolvida?</h3>
+   
+<p> A aplicação foi desenvolvida inteiramente com EJS, CSS, Javascript - usando Node, Express.</p> 
+
+<hr>
+
+### Sobre a experiência:
+
++ A experiência de construir essa aplicação foi única. A aplicação foi de grande aprendizado.
+
++ Foi possível aprender sobre padrões front-end, integração do backend com o front-end.
+
++ Também foi de grande valia o aprendizado acerca do dinamismo na geração de interfaces com o EJS, que, por aceitar dentro de sua estrutura códigos Javascript, também é capaz de alterar o seu conteúdo de acordo com diferentes condições.
