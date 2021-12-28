@@ -23,5 +23,3 @@
 
 + Também foi de grande valia o aprendizado acerca do dinamismo na geração de interfaces com o EJS, que, por aceitar dentro de sua estrutura códigos Javascript, também é capaz de alterar o seu conteúdo de acordo com diferentes condições.
 
-<hr>
-
